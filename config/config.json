@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "solicitacao-ferias-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/solicitacaoFerias/SolicitacaoFeriasWebPart.js",
+          "manifest": "./src/webparts/solicitacaoFerias/SolicitacaoFeriasWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SolicitacaoFeriasWebPartStrings": "lib/webparts/solicitacaoFerias/loc/{locale}.js"
+  }
+}

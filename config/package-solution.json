@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "solicitacao-ferias-client-side-solution",
+    "id": "8a154db5-6916-4896-9721-a9a08de17d80",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "solicitacao-ferias description"
+      },
+      "longDescription": {
+        "default": "solicitacao-ferias description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "solicitacao-ferias Feature",
+        "description": "The feature that activates elements of the solicitacao-ferias solution.",
+        "id": "1b95911d-f80b-4db0-b85b-ed06da84f895",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/solicitacao-ferias.sppkg"
+  }
+}
